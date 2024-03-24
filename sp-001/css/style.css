@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+header {
+    font-size: 1.3em;
+    padding: 10px;
+    padding-top: 50px;
+    margin: auto;
+    width: 85%;
+    background-color: white;
+    margin-top: 40px;
+}
+
+header > h1 {
+    margin: 0px;
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+    margin: auto;
+    width: 85%;
+    background-color: white;
+}
+
+main > img {
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+.socrates {
+    font-size: 1.5em;
+    padding: 10px;
+    margin: auto;
+    background-color: lightgray;
+    width: 90%;
+    font-weight: 600;
+}
+
+.nome {
+    font-weight: 100;
+    font-style: italic;
+}
+
+h2 {
+    padding-bottom: 0px;
+    padding: 10px;
+    margin: 30px;
+}
+
+p {
+    padding: 10px;
+    margin: 30px;
+    text-align: justify;
+}
+
+.subtittle {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+ul {
+        padding: 10px;
+        margin: 30px;
+        text-align: justify;
+}
+
+.link-oficial {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-oficial:hover {
+    color: rgb(91, 91, 91);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer > p {
+    text-align: center;
+}
