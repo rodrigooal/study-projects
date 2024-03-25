@@ -105,6 +105,9 @@ main h2 {
 
 }
 
+.required_element {
+    color: red;
+}
 
 footer {
     text-align: center;
