@@ -95,6 +95,7 @@ main h2 {
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .submit input:hover {
