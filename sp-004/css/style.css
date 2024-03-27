@@ -18,7 +18,7 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 header {
@@ -42,7 +42,6 @@ nav a {
     text-decoration: none;
     border: 2px solid transparent;
     margin: 5px;
-    text-align: left;
     transition-duration: 0.5s;
 }
 
