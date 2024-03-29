@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 250px;
+    position: relative;
+}
+
+header h1 {
+    font-family: "Passion One", sans-serif;
+    font-size: 7.1vw;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header p {
+    position: absolute;
+
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+header a:hover {
+    text-decoration: underline;
+}
