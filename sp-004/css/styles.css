@@ -55,6 +55,7 @@ main section > p {
     color: white;
     background-position: left center;
     background-attachment: fixed;
+    box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.475);
 }
 
 .second p {
@@ -72,6 +73,7 @@ main section > p {
     color: white;
     background-position: left center;
     background-attachment: fixed;
+    box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.475);
 }
 
 .four p {
