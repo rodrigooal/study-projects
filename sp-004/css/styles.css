@@ -49,12 +49,12 @@ main section > p {
     font-weight: bold;
 }
 
-.first, .three {
+.first, .three, .five {
     background-color: white;
-    max-height: 900px;
+    /* max-height: 1000px; */
 }
 
-.first p, .three p{
+.first p, .three p, .five p{
     margin: 20px;
 }
 
@@ -72,4 +72,38 @@ main section > p {
     margin: 20px;
     max-height: 20em;
     padding: 20px;
+}
+
+
+.four {
+    background-image: url("../img/background002.jpg");
+    background-size: cover;
+    color: white;
+    background-position: left center;
+    background-attachment: fixed;
+}
+
+.four p {
+    background-color: rgba(00, 00, 00, 0.5);
+    max-width: 15em;
+    margin: 20px;
+    max-height: 20em;
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
