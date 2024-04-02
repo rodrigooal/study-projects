@@ -77,4 +77,12 @@ header .nav-links li a:hover {
     width: 100%;
     color: #eee;
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.444);
+    
+}
+
+.text {
+    background-color: #0000008a;
+    width: 80vw;
+    padding: 20px;
+    border-radius: 20px;
 }
