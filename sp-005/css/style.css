@@ -11,3 +11,20 @@ body {
     background-attachment: fixed;
 }
 
+main {
+    height: 100vh;
+    position: relative;
+}
+
+.celular {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-image: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    width: 311px;
+    height: 627px;
+
+}
