@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #4F256D, #5F2C82);
+}
+
+#image {
+    display: flex;
+    height: 240px;
+    width: 240px;
+    background-image: url(../img/metal.jpg);
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#tela {
+    font-size: .8em;
+    box-sizing: border-box;
+    width: 240px;
+    background-color: whitesmoke;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+
+#tela h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#tela p {
+    padding-bottom: 10px;
+}
+
+#login, #senha {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #5F2C82;
+    padding: 3px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#login label, #senha label {
+    color: whitesmoke;
+    padding-right: 10px;
+}
+
+#login input, #senha input {
+    height: 35px;
+    border-radius: 10px;
+    background-color: #94CFCD;
+    border: none;
+}
+
+#envio {
+    background-color: #53AAA7;
+    height: 40px;
+    width: 220px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+#forgot {
+    box-sizing: border-box;
+    width: 220px;
+    height: 40px;
+    border: 1px solid #53AAA7;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#forgot a {
+    text-decoration: none;
+    color: #2d5b59;
+    font-size: 1.2em;
+}
