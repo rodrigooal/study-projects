@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
 * {
     margin: 0;
     padding: 0;
@@ -106,4 +112,10 @@ main {
     text-decoration: none;
     color: #2d5b59;
     font-size: 1.2em;
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    #image, #tela {
+
+    }
 }
