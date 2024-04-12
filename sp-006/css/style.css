@@ -60,6 +60,7 @@ body {
     border-radius: 10px;
     background-color: #94CFCD;
     border: none;
+    width: auto;
 }
 
 #envio {
