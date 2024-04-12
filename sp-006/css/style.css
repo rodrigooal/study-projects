@@ -114,8 +114,62 @@ main {
     font-size: 1.2em;
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
-    #image, #tela {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #all {
+        width: 90vw;
+    }
 
+    #image {
+        float: left;
+        height: 330px;
+        width: 40%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    #tela {
+        float: right;
+        height: 330px;
+        width: 60%;
+        border-radius: 0px 20px 20px 0px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1400px) {
+    #all {
+        width: 70vw;
+    }
+
+    #image {
+        float: right;
+        height: 330px;
+        width: 40%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    #tela {
+        float: left;
+        height: 330px;
+        width: 60%;
+        border-radius: 20px 0px 0px 20px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #all {
+        width: 50vw;
+    }
+
+    #image {
+        float: right;
+        height: 330px;
+        width: 40%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    #tela {
+        float: left;
+        height: 330px;
+        width: 60%;
+        border-radius: 20px 0px 0px 20px;
     }
 }
