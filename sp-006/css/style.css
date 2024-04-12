@@ -75,7 +75,7 @@ main {
 
 #login input, #senha input {
     height: 35px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #94CFCD;
     border: none;
     width: 90%;
