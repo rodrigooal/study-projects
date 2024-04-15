@@ -17,7 +17,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #2cc76a, #00ff43);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #2cc76a, #2cc76a);background-repeat: no-repeat;
     background-size: cover;
 }
 
