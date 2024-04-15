@@ -5,9 +5,6 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body {
-    height: 2000px;
-}
 
 header {
     background-color: #00ff43;
@@ -74,7 +71,7 @@ header .nav-links li a:hover {
     transform: translate(-50%, -30%);
 }
 
-.imagem02 h1, p {
+.imagem02 h1, .imagem02 p {
     font-size: 4vw;
     width: 100%;
     color: #eee;
@@ -129,4 +126,79 @@ header .nav-links li a:hover {
 
 .beneficios h3 {
     padding-bottom: 25px;
+}
+
+/* pricing */
+
+.pricing {
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.pricing ul {
+    list-style-type: none;
+    padding: 25px;
+}
+
+.pricing li {
+    height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+    line-height: 50px;
+}
+
+.pricing h2 {
+    font-size: 2.3em;
+}
+
+.pricing p {
+    font-size: 1.2em;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan {
+    flex: 1;
+    max-width: 275px;
+}
+
+.plan .price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc762;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #202b34;
+    padding: 50px 0;
+    padding-bottom: 0;
+}
+
+.plan .plan-btn {
+    background-color: #2cc762;
+    color: #fff;
+    font-size: 20px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .recommended  {
+    background-color: #f45c57;
 }
