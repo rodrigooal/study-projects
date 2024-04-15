@@ -104,6 +104,7 @@ header .nav-links li a:hover {
     list-style-type: none;
     width: 90%;
     margin: 0 auto;
+    padding-inline-start: 0px;
 }
 
 .beneficios li {
@@ -133,6 +134,7 @@ header .nav-links li a:hover {
 .pricing {
     text-align: center;
     padding-bottom: 5rem;
+    padding-left: 0px;
 }
 
 .pricing ul {
