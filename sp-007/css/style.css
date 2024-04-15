@@ -6,6 +6,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: #00ff43;
     overflow: hidden;
