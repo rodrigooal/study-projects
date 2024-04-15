@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Screen</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div id="all">
+            <div id="image">
+                <!-- Imagem em CSS -->
+            </div>
+            <div id="tela">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar seu ambiente de trabalho.</p>
+                <form autocomplete="on" method="post">
+                    <div id="login">
+                        <label for="ilogin"><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="login" id="ilogin" required minlength="8" autocomplete="email" placeholder=" Seu email">
+                    </div>
+                    <div id="senha">
+                        <label for="isenha"><span class="material-symbols-outlined">key</span></label>
+                        <input type="password" name="senha" id="isenha" placeholder=" Sua senha" required minlength="8" autocomplete="new-password">
+                    </div>
+                    <input type="submit" value="Entrar" id="envio">
+                    <p id="forgot"><a href="forgot.html">Esqueci a senha. <span class="material-symbols-outlined">mail</span></a></p>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
