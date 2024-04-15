@@ -264,6 +264,7 @@ header .nav-links li a:hover {
 .contact-container p {
     font-size: 1.2em;
     margin-bottom: 40px;
+    padding: 5px;
 }
 
 .contact-container input, .contact-container textarea {
@@ -309,4 +310,58 @@ footer a {
     color: #3a3a3a;
     text-decoration: none;
     
+}
+
+/* responsive */
+
+/* small laptops a partir de 1110px */
+@media screen and (max-width: 1110px) {
+    
+    .plan-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 0px;
+    }
+
+}
+
+/* tablet 900x */
+
+@media screen and (max-width: 900px) {
+    .plan-container {
+        display: inline-block;
+        columns: 2;
+    }
+
+    .plan {
+        margin: auto;
+        width: 50vw;
+    }
+}
+
+/*  celulares 600px */
+
+@media screen and (max-width: 600px) {
+    .plan-container {
+        display: inline-block;
+        columns: 1;
+    }
+
+    .plan {
+        margin: auto;
+        width: 100vw; 
+        box-sizing: border-box;
+    }
+    .beneficios {
+        display: block;
+        columns: 1;
+    }
+
+    .li {
+        margin: auto;
+        width: 100vw; 
+        box-sizing: border-box;
+    }
 }
