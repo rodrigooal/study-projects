@@ -370,4 +370,8 @@ footer a {
         width: 80vw;
         margin: 10px auto;
     }
+
+    .barra li {
+        font-size: 14px;
+    }
 }
