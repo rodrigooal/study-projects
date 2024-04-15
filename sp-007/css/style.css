@@ -374,4 +374,8 @@ footer a {
     .barra li {
         font-size: 14px;
     }
+
+    .beneficios ul {
+        flex-direction: column;
+    }
 }
