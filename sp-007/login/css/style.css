@@ -6,6 +6,8 @@
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
+/* 49A09D */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +17,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #4F256D, #49A09D);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #2cc76a, #00ff43);background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -38,10 +40,11 @@ main {
     display: flex;
     height: 240px;
     width: 250px;
-    background-image: url(../img/metal.jpg);
+    background-image: url(../img/metal.png);
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     transition-duration: .3s;
+    background-position: center center;
     
 }
 
@@ -68,7 +71,7 @@ main {
 #login, #senha {
     display: flex;
     box-sizing: border-box;
-    background-color: #5F2C82;
+    background-color: #202B34;
     padding: 3px;
     border-radius: 5px;
     align-items: center;
@@ -77,20 +80,20 @@ main {
 }
 
 #login label, #senha label {
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     padding-right: 10px;
 }
 
 #login input, #senha input {
     height: 35px;
     border-radius: 5px;
-    background-color: #94CFCD;
+    background-color: #ffffffc3;
     border: none;
     width: 90%;
 }
 
 #envio {
-    background-color: #53AAA7;
+    background-color: #2CC762;
     height: 40px;
     width: 100%;
     box-sizing: border-box;
@@ -104,16 +107,16 @@ main {
 
 #envio:hover {
     cursor: pointer;
-    color: #49A09D;
+    color:#2CC762;
     background-color: whitesmoke;
-    border: 1px solid #49A09D;
+    border: 1px solid #2CC762;
 }
 
 #forgot {
     box-sizing: border-box;
     width: 100%;
     height: 40px;
-    border: 1px solid #53AAA7;
+    border: 1px solid #2CC762;
     border-radius: 5px;
     text-align: center;
     transition-duration: .3s;
@@ -122,12 +125,12 @@ main {
 
 #forgot:hover {
     cursor: pointer;
-    background-color: lightblue;
+    background-color: #5dea8e81;
 }
 
 #forgot a {
     text-decoration: none;
-    color: #295b59;
+    color: #1f8944;
     font-size: 1.2em;
 }
 
