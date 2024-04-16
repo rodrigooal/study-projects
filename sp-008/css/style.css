@@ -110,3 +110,13 @@ form input[type="submit"] {
     text-decoration: none;
     font-weight: bold;
 }
+
+.download {
+    margin-top: 15px;
+    width: 360px;
+}
+
+.download img {
+    width: 40%;
+    margin-top: 15px;
+}
