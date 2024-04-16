@@ -16,3 +16,5 @@
 <a href="https://rodrigooal.github.io/study-projects/sp-006">Access project 006</a>
 
 <a href="https://rodrigooal.github.io/study-projects/sp-007">Access project 007</a>
+
+<a href="https://rodrigooal.github.io/study-projects/sp-008">Access project 008 (under construction)</a>
