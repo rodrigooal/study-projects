@@ -119,4 +119,44 @@ form input[type="submit"] {
 .download img {
     width: 40%;
     margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+footer {
+    /* background-color: red; */
+    
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+footer a, footer p {
+    margin-left: 2px;
+    color: gray;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 875px) {
+.celular {
+    display: none;
+}
+
+.main-container {
+    align-items: center;
+    justify-content: center;
+} 
 }
