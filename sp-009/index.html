@@ -13,7 +13,7 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="https://github.com/rodrigooal" target="_blank">Contato</a></li>
                 </ul>
             </nav>
         </header>
@@ -21,7 +21,7 @@
             <main>
                 <article class="post">
                     <img src="img/f1.jpg" alt="Navegação em barco com vista para montanha">
-                    <h2 class="tittle"><a href="#">Título</a></h2>
+                    <h2 class="tittle"><a href="#">Viagem de Barco</a></h2>
                     <p class="description">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi asperiores consequatur odio nemo nulla, soluta minus quas veniam quidem perferendis. Incidunt quasi a nostrum enim laborum dolor esse quo dolorum!
                     </p>
@@ -50,8 +50,10 @@
             <aside>
                 <section class="search">
                     <h2>Busca</h2>
-                    <input type="text" name="search" id="search" placeholder=" Pesquise no Blog">
-                    <input type="submit" value="Buscar">
+                    <form method="get">
+                        <input type="text" name="search" id="search" placeholder=" Pesquise no Blog">
+                        <input type="submit" value="Buscar">
+                    </form>
                 </section>
 
                 <section class="categories">
@@ -67,13 +69,15 @@
                 
                 <section class="tags">
                     <h2>Tags</h2>
-                    <span>Viagem</span>
-                    <span>Lifestyle</span>
-                    <span>Barco</span>
-                    <span>Trilha</span>
-                    <span>Tirolesa</span>
-                    <span>Rafting</span>
-                    <span>Parapente</span>
+                    <div class="tags-container">
+                        <span><mark>Viagem</mark></span>
+                        <span><mark>Lifestyle</mark></span>
+                        <span><mark>Barco</mark></span>
+                        <span><mark>Trilha</mark></span>
+                        <span><mark>Tirolesa</mark></span>
+                        <span><mark>Rafting</mark></span>
+                        <span><mark>Parapente</mark></span>
+                    </div>
                 </section>
             </aside>
         </div>

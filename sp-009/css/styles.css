@@ -65,10 +65,11 @@ aside section {
     box-sizing: border-box;
     border: 2px solid lightgray;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 aside .search h2 {
+    padding: 15px;
     margin-bottom: 15px;
 }
 
@@ -114,6 +115,27 @@ aside .categories li a:hover {
 
 .search input[type="submit"]:hover {
     opacity: 1;
+}
+
+aside .tags h2 {
+    padding: 10px;
+}
+
+aside .tags-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tags-container mark {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.tags-container span {
+    padding: 2px;
+    line-height: 35px;
 }
 
 footer {
