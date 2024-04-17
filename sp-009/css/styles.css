@@ -1,2 +1,47 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    height: 80px;
+}
+
+header h1 {
+    line-height: 80px;
+    margin-left: 30px;
+    color: #0a0a0a;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    line-height: 80px;
+    margin-right: 30px;
+}
+
+header li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+header li a {
+    color: #0a0a0a;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+header li a:hover {
+    font-size: 18px;
+}
