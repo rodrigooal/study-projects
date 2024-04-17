@@ -3,20 +3,20 @@
 
  Studies started on March 16, 2024.
 
-<a href="https://rodrigooal.github.io/study-projects/sp-001">Access project 001</a>
+<a href="https://rodrigooal.github.io/study-projects/sp-001">Project 001 - Tributo ao Corinthians</a>
 
-<a href="https://rodrigooal.github.io/study-projects/sp-002">Access project 002</a>
+<a href="https://rodrigooal.github.io/study-projects/sp-002">Project 002 - Projeto Android</a>
 
-<a href="https://rodrigooal.github.io/study-projects/sp-003">Access project 003</a>
+<a href="https://rodrigooal.github.io/study-projects/sp-003">Project 003 - Formulário (Carros)</a>
 
-<a href="https://rodrigooal.github.io/study-projects/sp-004">Access project 004</a>
+<a href="https://rodrigooal.github.io/study-projects/sp-004">Project 004 - Projeto Cordel (Curso em Video)</a>
 
-<a href="https://rodrigooal.github.io/study-projects/sp-005">Access project 005</a>
+<a href="https://rodrigooal.github.io/study-projects/sp-005">Project 005 - Projeto Social</a>
 
-<a href="https://rodrigooal.github.io/study-projects/sp-006">Access project 006</a>
+<a href="https://rodrigooal.github.io/study-projects/sp-006">Project 006 - Formulário (Login Screen)</a>
 
-<a href="https://rodrigooal.github.io/study-projects/sp-007">Access project 007</a>
+<a href="https://rodrigooal.github.io/study-projects/sp-007">Project 007 - Infinity Host</a>
 
-<a href="https://rodrigooal.github.io/study-projects/sp-008">Access project 008</a>
+<a href="https://rodrigooal.github.io/study-projects/sp-008">Project 008 - Copia Instagram</a>
 
-<a href="https://rodrigooal.github.io/study-projects/sp-009">Access project 009</a>
+<a href="https://rodrigooal.github.io/study-projects/sp-009">Project 009 - Blog Semântico</a>
