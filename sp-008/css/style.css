@@ -178,12 +178,28 @@ footer p {
 }
 
 @media screen and (max-width: 875px) {
-.celular {
-    display: none;
-}
+    body{
+        background-color: #fff;
+    }
 
-.main-container {
-    align-items: center;
-    justify-content: center;
+    .celular{
+        display: none;
+    }
+
+    .main-container, .interactive {
+        margin-top: 0;
+    }
+
+    .interactive, .login, .cadastro, .download {
+        border: none;
+        width: 100%;
+    }
+
+    .download img {
+        width: 130px;
+    }
+
+    footer a{
+        margin-left: 10px;
+    }
 } 
-}
