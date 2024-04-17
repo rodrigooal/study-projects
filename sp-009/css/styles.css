@@ -24,7 +24,7 @@ header {
 header h1 {
     font-size: 2rem;
     line-height: 80px;
-    margin-left: 30px;
+    margin-left: 50px;
     color: #0a0a0a;
 }
 
@@ -51,9 +51,10 @@ header li a:hover {
 }
 
 .container {
+    max-width: 95%;
+    margin: 0 auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 3rem;
 }
 
 .post img {
@@ -63,11 +64,56 @@ header li a:hover {
 aside section {
     box-sizing: border-box;
     border: 2px solid lightgray;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
-.search input {
+aside .search h2 {
+    margin-bottom: 15px;
+}
+
+.search input[type="text"] {
     height: 30px; 
+    width: 75%;
     margin: 0;
+    border: 1px solid lightgray;
+}
+
+.search input[type="submit"] {
+    height: 30px; 
+    width: 23%;
+    margin: 0;
+    background-color: #37aff4;
+    border: none;
+    color: #f6f3f3;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: .8;
+    margin-bottom: 10px;
+}
+
+aside .categories h2 {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+aside .categories li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+aside .categories li a {
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+aside .categories li a:hover {
+    color: rgb(87, 87, 87)
+}
+
+.search input[type="submit"]:hover {
+    opacity: 1;
 }
 
 footer {
