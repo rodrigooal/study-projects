@@ -1,61 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <header>
-        <h1>Blog Semântico</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Categorias</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="principal">
-
-        </section>
-
-        <aside>
-            <section class="search">
-                <h2>Busca</h2>
-                <input type="text" name="search" id="search" placeholder="Pesquise no Blog">
-                <input type="submit" value="Buscar">
-            </section>
-
-            <section class="categories">
-                <h2>Categorias</h2>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Blog Semântico</h1>
+            <nav>
                 <ul>
-                    <li><a href="#">Paisagens</a></li>
-                    <li><a href="#">Aventura</a></li>
-                    <li><a href="#">Viagens longas</a></li>
-                    <li><a href="#">Florestas</a></li>
-                    <li><a href="#">Cachoeiras</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
-            </section>
+            </nav>
+        </header>
+        <div class="container">
+            <main>
+                <article class="post">
+                    <img src="img/f1.jpg" alt="Navegação em barco com vista para montanha">
+                    <h3 class="tittle"><a href="#">Título</a></h3>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi asperiores consequatur odio nemo nulla, soluta minus quas veniam quidem perferendis. Incidunt quasi a nostrum enim laborum dolor esse quo dolorum!
+                    </p>
+                    <a href="#">Ler mais</a>
+                </article>
 
-            <section class="tags">
-                <h2>Tags</h2>
-                <span>Viagem</span>
-                <span>Lifestyle</span>
-                <span>Barco</span>
-                <span>Trilha</span>
-                <span>Tirolesa</span>
-                <span>Rafting</span>
-                <span>Parapente</span>
-            </section>
-        </aside>
-    </main>
-    <footer>
-        <h2>Blog</h2>
-        <p>Os melhores registros de aventuras</p>
-        <p>2024 &copy; <a href="https://github.com/rodrigooal" target="_blank">Rodriguinho</a></p>
-    </footer>
-</body>
+                <article class="post">
+                    <img src="img/f2.jpg" alt="Cachoeira">
+                    <h3 class="tittle"><a href="#">Título</a></h3>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi asperiores consequatur odio nemo nulla, soluta minus quas veniam quidem perferendis. Incidunt quasi a nostrum enim laborum dolor esse quo dolorum!
+                    </p>
+                    <a href="#">Ler mais</a>
+                </article>
+
+                <article class="post">
+                    <img src="img/f3.jpg" alt="Balões">
+                    <h3 class="tittle"><a href="#">Título</a></h3>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi asperiores consequatur odio nemo nulla, soluta minus quas veniam quidem perferendis. Incidunt quasi a nostrum enim laborum dolor esse quo dolorum!
+                    </p>
+                    <a href="#">Ler mais</a>
+                </article>
+            </main>
+
+            <aside>
+                <section class="search">
+                    <h2>Busca</h2>
+                    <input type="text" name="search" id="search" placeholder="Pesquise no Blog">
+                    <input type="submit" value="Buscar">
+                </section>
+
+                <section class="categories">
+                    <h2>Categorias</h2>
+                    <ul>
+                        <li><a href="#">Paisagens</a></li>
+                        <li><a href="#">Aventura</a></li>
+                        <li><a href="#">Viagens longas</a></li>
+                        <li><a href="#">Florestas</a></li>
+                        <li><a href="#">Cachoeiras</a></li>
+                    </ul>
+                </section>
+                
+                <section class="tags">
+                    <h2>Tags</h2>
+                    <span>Viagem</span>
+                    <span>Lifestyle</span>
+                    <span>Barco</span>
+                    <span>Trilha</span>
+                    <span>Tirolesa</span>
+                    <span>Rafting</span>
+                    <span>Parapente</span>
+                </section>
+            </aside>
+        </div>
+
+        <footer>
+            <h2>Blog</h2>
+            <p>Os melhores registros de aventuras</p>
+            <p>2024 &copy; <a href="https://github.com/rodrigooal" target="_blank">Rodriguinho</a></p>
+        </footer>
+    </body>
 </html>
