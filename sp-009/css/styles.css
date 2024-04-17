@@ -48,9 +48,22 @@ header li a:hover {
     font-size: 18px;
 }
 
+main {
+    display: flex;
+    flex: 2 1 0;
+}
 
 
+aside section {
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    margin-top: 20px;
+}
 
+.search input {
+    height: 30px; 
+    margin: 0;
+}
 
 footer {
     display: flex;
