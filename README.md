@@ -22,3 +22,5 @@
 <a href="https://rodrigooal.github.io/study-projects/sp-008">Project 008 - Copia Instagram</a>
 
 <a href="https://rodrigooal.github.io/study-projects/sp-009">Project 009 - Blog Semântico</a>
+
+<a href="https://rodrigooal.github.io/study-projects/sp-010">Project 010 - Landing Page</a>
