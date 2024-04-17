@@ -57,10 +57,6 @@ header li a:hover {
     gap: 3rem;
 }
 
-.post img {
-    width: 100%;
-}
-
 aside section {
     box-sizing: border-box;
     border: 2px solid lightgray;
@@ -136,6 +132,42 @@ aside .tags-container {
 .tags-container span {
     padding: 2px;
     line-height: 35px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.post h2, .post h3 {
+    padding: 10px 0 10px 0;
+    color: #1c1c1c;
+    padding-bottom: 20px;
+}
+
+.post h2 a {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.post p {
+    padding-bottom: 10px;
+    color: #1c1c1c;
+}
+
+.post > a {
+    color: #1c1c1c;
+    text-decoration: none;
+    font-size: 18px;
+    opacity: .8;
+    font-weight: bold;
+}
+
+.post > a:hover {
+    opacity: 1;
+}
+
+.post img {
+    width: 100%;
 }
 
 footer {
