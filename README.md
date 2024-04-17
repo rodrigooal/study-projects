@@ -3,6 +3,8 @@
 
  Studies started on March 16, 2024.
 
+<h1>Projetos Somente com HTML e CSS:</h1>
+
 <a href="https://rodrigooal.github.io/study-projects/sp-001">Project 001 - Tributo ao Corinthians</a>
 
 <a href="https://rodrigooal.github.io/study-projects/sp-002">Project 002 - Projeto Android</a>
