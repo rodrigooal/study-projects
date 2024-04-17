@@ -19,4 +19,4 @@
 
 <a href="https://rodrigooal.github.io/study-projects/sp-008">Access project 008</a>
 
-<a href="https://rodrigooal.github.io/study-projects/sp-009">Access project 009 (under construction)</a>
+<a href="https://rodrigooal.github.io/study-projects/sp-009">Access project 009</a>
