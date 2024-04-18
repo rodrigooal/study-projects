@@ -147,6 +147,8 @@ main .top3-container {
 
 .top {
     background-image: url(../img/main-bg.svg);
+    background-position: center center;
+    background-size: cover;
 }
 
 .topcontainer {
@@ -175,8 +177,6 @@ main .top3-container {
     padding-top: 70px;
 }
 
-
-
 .gridsection h1 {
     font-size: 30px;
 }
@@ -199,8 +199,25 @@ main .top3-container {
     font-style: italic;
 }
 
+/* gallery */
 
 
+/* work */
+#work {
+    background-image: url(../img/main-bg.svg);
+    background-position: center center;
+    background-size: cover;
+}
+
+/* pricing */
+
+/* contact */
+
+#contact {
+    background-image: url(../img/main-bg.svg);
+    background-position: center center;
+    background-size: cover;
+}
 
 /* footer */
 
@@ -223,6 +240,8 @@ footer a {
     color: #0A1128;
     text-decoration: none;
 }
+
+/* responsividade */
 
 @media screen and (max-width: 800px) {
     .margem {
