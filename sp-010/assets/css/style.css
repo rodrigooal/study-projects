@@ -8,6 +8,10 @@
     color: #0A1128;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fafafa;
 }
@@ -101,7 +105,7 @@ main #intro {
 }
 
 #intro .text > h1 {
-    font-size: 60px;
+    font-size: 55px;
     padding: 50px 0 50px 0;
     color: #fafafa;
 }
@@ -166,4 +170,33 @@ footer p {
 footer a {
     color: #0A1128;
     text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .margem {
+        display: none;
+    }
+
+    header{
+         display: none;
+    }
+
+    .intro-container {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    #intro img {
+        width: 80vw;
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+
+    #intro h1, #intro p {
+        text-align: center;
+    }
 }
