@@ -59,15 +59,21 @@ nav ul li a {
 main section {
     min-height: 100vh;
 }
+
+.margem {
+    display: block;
+    height: 80px;
+    width: 100%;
+    background-color: #0A1128;
+}
+
 /* intro */
 main #intro {
     background-image: url(../img/main-bg.svg);
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 800px;
     display: block;
-
 }
 
 .intro-container {
@@ -75,8 +81,32 @@ main #intro {
     flex-direction: row;
     width: 80vw;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: auto;
 }
+
+#intro img {
+    width: 50vw;
+    padding-left: 30px;
+}
+
+#intro .text {
+    max-width: 500px;
+}
+
+#intro .text > p {
+    color: #fafafa;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#intro .text > h1 {
+    font-size: 60px;
+    padding: 50px 0 50px 0;
+    color: #fafafa;
+}
+
+
 
 /* top3 */
 
