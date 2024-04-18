@@ -165,7 +165,7 @@ main .top3-container {
 .topcontainer h1 {
     color: white;
     font-size: 40px;
-    padding: 60px 0 20px 0;
+    padding: 60px 0 0px 0;
 }
 
 /* GRIDSECTION */
@@ -228,8 +228,8 @@ main .top3-container {
 }
 
 .gridgallery img {
-    max-width: 600px;
-    max-width: 600px;
+    max-width: 100%;
+    max-width: 100%;
     transition: 300ms;
 }
 
