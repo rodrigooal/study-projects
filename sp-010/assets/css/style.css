@@ -179,8 +179,27 @@ main .top3-container {
 
 .gridsection h1 {
     font-size: 30px;
-
 }
+
+.gridsection h1#first::before {
+    content: "1 ";
+    font-size: 60px;
+    font-style: italic;
+}
+
+.gridsection h1#second::before {
+    content: "2 ";
+    font-size: 60px;
+    font-style: italic;
+}
+
+.gridsection h1#third::before {
+    content: "3 ";
+    font-size: 60px;
+    font-style: italic;
+}
+
+
 
 
 /* footer */
