@@ -346,4 +346,10 @@ footer a {
         padding-top: 50px;
         padding-bottom: 20px;
     }
+
+    .reponsive-table table {
+        width: 95vw;    
+
+    }
+    
 }
