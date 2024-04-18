@@ -17,6 +17,7 @@ body {
 }
 
 header {
+    z-index: 1;
     display: flex;
     height: 80px;
     width: 100%;
@@ -201,6 +202,40 @@ main .top3-container {
 
 /* gallery */
 
+.gallerycontainer {
+    width: 80vw;
+    margin: auto;
+}
+
+.gallerycontainer h1 {
+    font-size: 55px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.gallerycontainer p {
+    font-size: 25px;
+}
+
+.gridgallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    text-align: center;
+    z-index: 0;
+}
+
+.gridgallery img {
+    max-width: 600px;
+    max-width: 600px;
+    transition: 300ms;
+}
+
+.gridgallery img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
 
 /* work */
 #work {
@@ -273,5 +308,20 @@ footer a {
 
     .gridsection {
         display: block;
+    }
+
+    .gridgallery {
+        display: block;
+    }
+
+    .gridgallery img {
+        padding-bottom: 20px;
+        width: 80vw;
+    }
+
+    .gallerycontainer h1 {
+        font-size: 55px;
+        padding-top: 50px;
+        padding-bottom: 20px;
     }
 }
