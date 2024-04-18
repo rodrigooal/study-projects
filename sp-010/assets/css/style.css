@@ -149,6 +149,39 @@ main .top3-container {
     background-image: url(../img/main-bg.svg);
 }
 
+.topcontainer {
+   width: 80vw;
+   margin: auto;
+}
+
+.topcontainer p {
+    color: #fafafa;
+    font-size: 25px;
+}
+
+.topcontainer h1 {
+    color: white;
+    font-size: 40px;
+    padding: 60px 0 20px 0;
+}
+
+/* GRIDSECTION */
+
+.gridsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+
+
+.gridsection h1 {
+    font-size: 30px;
+
+}
+
 
 /* footer */
 
@@ -198,5 +231,9 @@ footer a {
 
     #intro h1, #intro p {
         text-align: center;
+    }
+
+    .gridsection {
+        display: block;
     }
 }
