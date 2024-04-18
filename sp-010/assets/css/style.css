@@ -115,13 +115,13 @@ main #intro {
 
 /* top3 */
 
-main #top3 {
+main #top3, #pricing {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-main .top3-container {
+main .top3-container, .pricing {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,13 +131,13 @@ main .top3-container {
     padding: 10px;
 }
 
-#top3 h2 {
+#top3 h2, .pricing h1 {
     padding: 50px;
     font-size: 40px;
     color: #0A1128;
 }
 
-#top3 p {
+#top3 p, .pricing p {
     color: #0A1128;
     font-size: 23px;
     text-align: center;
@@ -245,7 +245,29 @@ main .top3-container {
 }
 
 /* pricing */
+.reponsive-table table {
+    text-align: left;
+    width: 50vw;    
+    border-collapse: collapse;
+    font-size: 25px;
+}
 
+.reponsive-table table td, .reponsive-table table th {
+    border: 1px solid lightgray;
+    padding: 3px;
+}
+
+.reponsive-table table th {
+    background-color: lightgray;
+    color: #0A1128;
+}
+
+table caption {
+    font-size: 18px;
+    font-style: italic;
+    text-align: left;
+    padding-bottom: 5px;
+}
 /* contact */
 
 #contact {
