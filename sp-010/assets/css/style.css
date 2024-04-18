@@ -165,7 +165,8 @@ main .top3-container {
 .topcontainer h1 {
     color: white;
     font-size: 40px;
-    padding: 60px 0 0px 0;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 /* GRIDSECTION */
@@ -175,7 +176,6 @@ main .top3-container {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding-bottom: 70px;
-    padding-top: 70px;
 }
 
 .gridsection h1 {
