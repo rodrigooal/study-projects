@@ -250,6 +250,7 @@ main .top3-container, .pricing {
     width: 50vw;    
     border-collapse: collapse;
     font-size: 25px;
+    margin-bottom: 50px;
 }
 
 .reponsive-table table td, .reponsive-table table th {
@@ -278,6 +279,71 @@ tfoot {
     background-image: url(../img/main-bg.svg);
     background-position: center center;
     background-size: cover;
+}
+
+.contact-container {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-container .primer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.contact-container .primer .text {
+    width: 50%;
+}
+
+.contact-container h1{
+    color: #fafafa;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+.contact-container p {
+    color: #fafafa;
+    font-size: 25px;
+}
+
+.contact-container img {
+    max-width: 100%;
+}
+
+.formulario label {
+    color: #fafafa;
+    font-size: 23px;
+    display: block;
+}
+
+.contact-container p {
+    color: #fafafa;
+    font-size: 25px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.nomes {
+    display: flex;
+    gap: 30px;
+}
+
+.nomes div {
+    width: 50%;
+}
+
+.nomes input {
+    width: 100%;
+    border: none;
+    height: 60px;
+    font-size: 23px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgba(211, 211, 211, 0.162);
 }
 
 /* footer */
