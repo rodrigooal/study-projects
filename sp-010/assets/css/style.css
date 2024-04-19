@@ -400,7 +400,28 @@ footer a {
     }
 
     header{
-         display: none;
+        position: fixed;
+        height: 100vh;
+                justify-content: center;
+    }
+
+
+
+    .nav-bar {
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+    }
+
+    nav ul {
+
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+        margin-left: -40px;
     }
 
     .intro-container {
