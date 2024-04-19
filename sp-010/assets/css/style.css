@@ -289,14 +289,15 @@ tfoot {
 .contact-container .primer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     gap: 20px;
     padding-top: 80px;
     padding-bottom: 50px;
 }
 
 .contact-container .primer .text {
-    width: 50%;
+    width: 40%;
 }
 
 .contact-container h1{
@@ -316,8 +317,9 @@ tfoot {
 
 .formulario label {
     color: #fafafa;
-    font-size: 23px;
+    font-size: 25px;
     display: block;
+    padding-bottom: 10px;
 }
 
 .contact-container p {
@@ -336,14 +338,36 @@ tfoot {
     width: 50%;
 }
 
-.nomes input {
+.formulario input {
     width: 100%;
     border: none;
     height: 60px;
-    font-size: 23px;
+    font-size: 30px;
+    font-weight: 450;
     padding: 10px;
-    font-weight: bold;
-    color: rgba(211, 211, 211, 0.162);
+    color: #0A1128;
+    margin-bottom: 20px;
+}
+
+.formulario textarea {
+    width: 100%;
+    border: none;
+    height: 150px;
+    font-size: 30px;
+    font-weight: 450;
+    padding: 10px;
+    color: #0A1128;
+    margin-bottom: 20px;
+}
+
+.formulario input[type="submit"] {
+    color: #fafafa;
+    background-color: #0A1128;
+    border: 4px solid #fafafa;
+    width: 45%;
+    line-height: 30px;
+    cursor: pointer;
+    margin-bottom: 80px;
 }
 
 /* footer */
@@ -422,4 +446,29 @@ footer a {
 
     }
     
+    .formulario .nomes {
+        display: block;
+    }
+
+    .formulario .nomes div {
+        width: 100%;
+    }
+
+    .formulario input[type="submit"] {
+        width: 100%;
+    }
+
+    .contact-container .primer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .contact-container .primer .text {
+        width: 100%;
+    }
 }
