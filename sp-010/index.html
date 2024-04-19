@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
+    <input type="checkbox" role="button" aria-label="Close menu" id="close-menu" class="close-menu">
+    <label class="close-menu-label" for="close-menu" title="Close menu"></label>
     <header>
         <div class="nav-bar">
             <a href="#">Logo</a>
             <nav>
-                <ul>
-                    <li><a href="#introduction">Home</a></li>
-                    <li><a href="#top3">Top 3</a></li>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#margem">Home</a></li>
+                    <li><a href="#top">Top 3</a></li>
                     <li><a href="#gallery">Galeria</a></li>
                     <li><a href="#work">Trabalhos</a></li>
                     <li><a href="#contact">Contato</a></li>
@@ -22,7 +25,7 @@
         </div>
     </header>
     <main>
-        <div class="margem" id="introduction"></div>
+        <div class="margem" id="margem"></div>
         <section id="intro">
             <div class="intro-container">
                 <div class="text">
@@ -38,7 +41,7 @@
                 </div>
             </div>
         </section>
-        <section id="top3">
+        <section id="top3" id="introduction">
             <div class="top3-container">
                 <h2>TOP 3 JOBS</h2>
                 <p>
@@ -50,7 +53,7 @@
                 </p>
             </div>
         </section>
-        <section class="top">
+        <section class="top" id="top">
             <div class="topcontainer">
                 <h1>TOP 3 JOBS</h1>
                 <p>Here are some recent work.</p>
@@ -207,5 +210,7 @@
         <p><a href="https://github.com/rodrigooal" target="_blank">Feito por Rodrigo Almeida, em aprendizado.</a></p>
         <p>2024 &copy;<a href="https://github.com/rodrigooal" target="_blank">Rodrigo Alves</a></p>
     </footer>
+
+    <span><a href="#margem" id="back-to-top"><span class="material-symbols-outlined">vertical_align_top</span></a></span>
 </body>
 </html>

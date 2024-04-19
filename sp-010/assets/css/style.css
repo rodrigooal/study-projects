@@ -10,6 +10,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -57,6 +58,22 @@ nav ul li a {
     color: #0A1128;
     text-decoration: none;
     font-size: 18px;
+    transition: all 0.5s linear;
+}
+
+nav ul li a:hover {
+    color: #0A1128;
+    border-bottom: 2px solid crimson;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.close-menu {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
 }
 
 /* main*/
@@ -392,6 +409,21 @@ footer a {
     text-decoration: none;
 }
 
+#back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #ffffffa0;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #0A1128;
+    border: 1px solid #0A1128;
+}
+
 /* responsividade */
 
 @media screen and (max-width: 800px) {
@@ -400,12 +432,11 @@ footer a {
     }
 
     header{
+        display: none;
         position: fixed;
         height: 100vh;
-                justify-content: center;
+        justify-content: center;
     }
-
-
 
     .nav-bar {
         flex-direction: column;
@@ -492,4 +523,34 @@ footer a {
     .contact-container .primer .text {
         width: 100%;
     }
+
+    .close-menu {
+        display: none;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+
+    .close-menu-label::after {
+        content: '≡';
+        font-size: 30px;
+        background-color: #0A1128;
+        color: white;
+        position: fixed;
+        z-index: 2;
+        top: 1rem;
+        right: 2rem; 
+        line-height: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .close-menu:checked~header {
+        display: flex;
+    }
+
 }
