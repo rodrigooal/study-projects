@@ -385,6 +385,14 @@ tfoot {
     line-height: 30px;
     cursor: pointer;
     margin-bottom: 80px;
+    transition-duration: 300ms;
+}
+
+.formulario input[type="submit"]:hover {
+    color: #0A1128;
+    background-color: #fafafa;
+    border: 4px solid #fafafa;
+    cursor: pointer;
 }
 
 /* footer */
