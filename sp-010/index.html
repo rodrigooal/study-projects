@@ -1,216 +1,216 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-</head>
-<body>
-    <input type="checkbox" role="button" aria-label="Close menu" id="close-menu" class="close-menu">
-    <label class="close-menu-label" for="close-menu" title="Close menu"></label>
-    <header>
-        <div class="nav-bar">
-            <a href="#">Logo</a>
-            <nav>
-                <ul onclick="getElementById('close-menu').checked = false;">
-                    <li><a href="#margem">Home</a></li>
-                    <li><a href="#top">Top 3</a></li>
-                    <li><a href="#gallery">Galeria</a></li>
-                    <li><a href="#work">Trabalhos</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="margem" id="margem"></div>
-        <section id="intro">
-            <div class="intro-container">
-                <div class="text">
-                    <h1>
-                        JANUARY BRINGS US FIREFOX 85
-                    </h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body>
+        <input type="checkbox" role="button" aria-label="Close menu" id="close-menu" class="close-menu">
+        <label class="close-menu-label" for="close-menu" title="Close menu"></label>
+        <header>
+            <div class="nav-bar">
+                <a href="#">Logo</a>
+                <nav>
+                    <ul onclick="getElementById('close-menu').checked = false;">
+                        <li><a href="#margem">Home</a></li>
+                        <li><a href="#top">Top 3</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                        <li><a href="#work">Trabalhos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="margem" id="margem"></div>
+            <section id="intro">
+                <div class="intro-container">
+                    <div class="text">
+                        <h1>
+                            JANUARY BRINGS US FIREFOX 85
+                        </h1>
+                        <p>
+                            To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.
+                        </p>
+                    </div>
+                    <div class="imge">
+                        <img src="assets/img/javascript.svg" alt="JavaScript CSS e HTML trabalhando juntos" >
+                    </div>
+                </div>
+            </section>
+            <section id="top3" id="introduction">
+                <div class="top3-container">
+                    <h2>TOP 3 JOBS</h2>
                     <p>
-                        To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.
+                        The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.
+                        <br><br>
+                        We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.
+                        <br><br>
+                        We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.
                     </p>
                 </div>
-                <div class="imge">
-                    <img src="assets/img/javascript.svg" alt="JavaScript CSS e HTML trabalhando juntos" >
-                </div>
-            </div>
-        </section>
-        <section id="top3" id="introduction">
-            <div class="top3-container">
-                <h2>TOP 3 JOBS</h2>
-                <p>
-                    The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.
-                    <br><br>
-                    We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.
-                    <br><br>
-                    We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.
-                </p>
-            </div>
-        </section>
-        <section class="top" id="top">
-            <div class="topcontainer">
-                <h1>TOP 3 JOBS</h1>
-                <p>Here are some recent work.</p>
-            
-                <div class="gridsection">
-                    <div class="first">
-                        <h1 id="first">First</h1>
-                        <p>This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
-                    </div>
-                    <div class="second">
-                        <h1 id="second">Second</h1>
-                        <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.</p>
-                    </div>
-                    <div class="third">
-                        <h1 id="third">Third</h1>
-                        <p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="gallery">
-            <div class="gallerycontainer">
-                <h1>GALERIA</h1>
-                <p>Aqui estão algumas fotos geradas por IA.</p>
-            
-                <div class="gridgallery">
-                    <div class="first">
-                        <img src="https://images.unsplash.com/photo-1706702511694-35246e0e47d0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDM1NQ&ixlib=rb-4.0.3&q=80&w=300" alt="Veado">
-                    </div>
-                    <div class="second">
-                        <img src="https://images.unsplash.com/photo-1708367141188-237043ed1278?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDM4MA&ixlib=rb-4.0.3&q=80&w=300" alt="Camera">
-                    </div>
-                    <div class="third">
-                        <img src="https://images.unsplash.com/photo-1708856186498-754432f732c3?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDQwNQ&ixlib=rb-4.0.3&q=80&w=300" alt="Dark">
-                    </div>
-                    <div class="fourth">
-                        <img src="https://images.unsplash.com/photo-1709314848358-06b5e198c98b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDQ4NQ&ixlib=rb-4.0.3&q=80&w=300" alt="Flores">
-                    </div>
-                    <div class="fiveth">
-                        <img src="https://images.unsplash.com/photo-1708974441313-02f81a1f881b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDU2NA&ixlib=rb-4.0.3&q=80&w=300" alt="Arvore">
-                    </div>
-                    <div class="sixth">
-                        <img src="https://images.unsplash.com/photo-1709125505234-2fa309a7fb5f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDU3Nw&ixlib=rb-4.0.3&q=80&w=300" alt="Mulher">
-                    </div>
-                </div>
-        </section>
-        <section class="top" id="work">
-            <div class="topcontainer">
-                <h1>TRABALHOS RECENTES</h1>
-                <p>Aqui estão alguns dos nossos trabalhos mais recentes.</p>
-            
-                <div class="gridsection">
-                    <div class="first">
-                        <h1 id="first">A good one</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, minus hic delectus, quisquam ullam, ipsum consequuntur harum aspernatur architecto repudiandae nisi officiis suscipit at quia maxime tempore aliquam odio reiciendis.</p>
-                    </div>
-                    <div class="second">
-                        <h1 id="second">Great job</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque laboriosam exercitationem consequuntur consectetur sequi quos possimus similique corporis consequatur adipisci ab fugiat odit necessitatibus dignissimos, fuga amet cumque commodi facere.</p>
-                    </div>
-                    <div class="third">
-                        <h1 id="third">The best</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse sit sed hic ex ullam accusamus praesentium in, at quas earum molestiae alias accusantium perspiciatis facilis recusandae tenetur culpa, consequuntur illum!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="pricing">
-            <div class="pricing">
-                <h1>PRICING</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum odio nulla commodi. Aliquid quis enim ab vitae dicta ipsam delectus doloribus, voluptatibus hic maiores, quasi non iure cumque animi!</p>
-
-                <div class="reponsive-table">
-                    <table>
-                        <caption>Pricing Table</caption>
-                        <thead>
-                            <tr>
-                                <th>Title 1</th>
-                                <th>Title 2</th>
-                                <th>Title 3</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Content 1</td>
-                                <td>Content 2</td>
-                                <td>Content 3</td>
-                            </tr>
-                            <tr>
-                                <td>Content 1</td>
-                                <td>Content 2</td>
-                                <td>Content 3</td>
-                            </tr>
-                            <tr>
-                                <td>Content 1</td>
-                                <td>Content 2</td>
-                                <td>Content 3</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="2">SPAN DOWN</td>
-                                <td>Content 2</td>
-                                <td>Content 3</td>
-                            </tr>
-                            <tr>
-                                <td>Content 2</td>
-                                <td>Content 3</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="3">Finish Value</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </div>
-            </div>
-        </section>
-        <section id="contact">
-            <div class="contact-container">
-                <div class="primer">
-                    <div class="text">
-                        <h1>Entre em Contato</h1>
-                        <p>Envie sua mensagem e um de nossos especialistas entrará em contato em até no máximo 24h. Aguardamos seu contato!</p>
-                    </div>
-                    <div class="img">
-                        <img src="assets/img/contato.png" alt="Contato">
-                    </div>
-                </div>
-                <div class="formulario">
-                    <form>
-                        <p>Formulário de contato</p>
-                        <div class="nomes">
-                            <div>
-                                <label for="iname">Primeiro nome</label>
-                                <input type="text" name="name" id="iname" placeholder="Seu Nome" autocomplete="name">
-                            </div>
-                            <div>
-                                <label for="ilname">Sobrenome</label>
-                                <input type="text" name="lname" id="ilname" placeholder="Seu Sobrenome" autocomplete="family-name">
-                            </div>
+            </section>
+            <section class="top" id="top">
+                <div class="topcontainer">
+                    <h1>TOP 3 JOBS</h1>
+                    <p>Here are some recent work.</p>
+                
+                    <div class="gridsection">
+                        <div class="first">
+                            <h1 id="first">First</h1>
+                            <p>This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
                         </div>
-                        <label for="iemail">Email</label>
-                        <input type="email" name="email" id="iemail" placeholder="Seu melhor email" autocomplete="email">
-                        <label for="imsg">Sua Mensagem:</label>
-                        <textarea name="msg" id="imsg"></textarea>
-
-                        <input type="submit" value="Enviar Mensagem">
-                    </form>
+                        <div class="second">
+                            <h1 id="second">Second</h1>
+                            <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.</p>
+                        </div>
+                        <div class="third">
+                            <h1 id="third">Third</h1>
+                            <p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p><a href="https://github.com/rodrigooal" target="_blank">Feito por Rodrigo Almeida, em aprendizado.</a></p>
-        <p>2024 &copy;<a href="https://github.com/rodrigooal" target="_blank">Rodrigo Alves</a></p>
-    </footer>
+            </section>
+            <section id="gallery">
+                <div class="gallerycontainer">
+                    <h1>GALERIA</h1>
+                    <p>Aqui estão algumas fotos geradas por IA.</p>
+                
+                    <div class="gridgallery">
+                        <div class="first">
+                            <img src="https://images.unsplash.com/photo-1706702511694-35246e0e47d0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDM1NQ&ixlib=rb-4.0.3&q=80&w=300" alt="Veado">
+                        </div>
+                        <div class="second">
+                            <img src="https://images.unsplash.com/photo-1708367141188-237043ed1278?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDM4MA&ixlib=rb-4.0.3&q=80&w=300" alt="Camera">
+                        </div>
+                        <div class="third">
+                            <img src="https://images.unsplash.com/photo-1708856186498-754432f732c3?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDQwNQ&ixlib=rb-4.0.3&q=80&w=300" alt="Dark">
+                        </div>
+                        <div class="fourth">
+                            <img src="https://images.unsplash.com/photo-1709314848358-06b5e198c98b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDQ4NQ&ixlib=rb-4.0.3&q=80&w=300" alt="Flores">
+                        </div>
+                        <div class="fiveth">
+                            <img src="https://images.unsplash.com/photo-1708974441313-02f81a1f881b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDU2NA&ixlib=rb-4.0.3&q=80&w=300" alt="Arvore">
+                        </div>
+                        <div class="sixth">
+                            <img src="https://images.unsplash.com/photo-1709125505234-2fa309a7fb5f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMzQ2NDU3Nw&ixlib=rb-4.0.3&q=80&w=300" alt="Mulher">
+                        </div>
+                    </div>
+            </section>
+            <section class="top" id="work">
+                <div class="topcontainer">
+                    <h1>TRABALHOS RECENTES</h1>
+                    <p>Aqui estão alguns dos nossos trabalhos mais recentes.</p>
+                
+                    <div class="gridsection">
+                        <div class="first">
+                            <h1 id="first">A good one</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, minus hic delectus, quisquam ullam, ipsum consequuntur harum aspernatur architecto repudiandae nisi officiis suscipit at quia maxime tempore aliquam odio reiciendis.</p>
+                        </div>
+                        <div class="second">
+                            <h1 id="second">Great job</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque laboriosam exercitationem consequuntur consectetur sequi quos possimus similique corporis consequatur adipisci ab fugiat odit necessitatibus dignissimos, fuga amet cumque commodi facere.</p>
+                        </div>
+                        <div class="third">
+                            <h1 id="third">The best</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse sit sed hic ex ullam accusamus praesentium in, at quas earum molestiae alias accusantium perspiciatis facilis recusandae tenetur culpa, consequuntur illum!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="pricing">
+                <div class="pricing">
+                    <h1>PRICING</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum odio nulla commodi. Aliquid quis enim ab vitae dicta ipsam delectus doloribus, voluptatibus hic maiores, quasi non iure cumque animi!</p>
 
-    <span><a href="#margem" id="back-to-top"><span class="material-symbols-outlined">vertical_align_top</span></a></span>
-</body>
+                    <div class="reponsive-table">
+                        <table>
+                            <caption>Pricing Table</caption>
+                            <thead>
+                                <tr>
+                                    <th>Title 1</th>
+                                    <th>Title 2</th>
+                                    <th>Title 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Content 1</td>
+                                    <td>Content 2</td>
+                                    <td>Content 3</td>
+                                </tr>
+                                <tr>
+                                    <td>Content 1</td>
+                                    <td>Content 2</td>
+                                    <td>Content 3</td>
+                                </tr>
+                                <tr>
+                                    <td>Content 1</td>
+                                    <td>Content 2</td>
+                                    <td>Content 3</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">SPAN DOWN</td>
+                                    <td>Content 2</td>
+                                    <td>Content 3</td>
+                                </tr>
+                                <tr>
+                                    <td>Content 2</td>
+                                    <td>Content 3</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3">Finish Value</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="contact-container">
+                    <div class="primer">
+                        <div class="text">
+                            <h1>Entre em Contato</h1>
+                            <p>Envie sua mensagem e um de nossos especialistas entrará em contato em até no máximo 24h. Aguardamos seu contato!</p>
+                        </div>
+                        <div class="img">
+                            <img src="assets/img/contato.png" alt="Contato">
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <form>
+                            <p>Formulário de contato</p>
+                            <div class="nomes">
+                                <div>
+                                    <label for="iname">Primeiro nome</label>
+                                    <input type="text" name="name" id="iname" placeholder="Seu Nome" autocomplete="name">
+                                </div>
+                                <div>
+                                    <label for="ilname">Sobrenome</label>
+                                    <input type="text" name="lname" id="ilname" placeholder="Seu Sobrenome" autocomplete="family-name">
+                                </div>
+                            </div>
+                            <label for="iemail">Email</label>
+                            <input type="email" name="email" id="iemail" placeholder="Seu melhor email" autocomplete="email">
+                            <label for="imsg">Sua Mensagem:</label>
+                            <textarea name="msg" id="imsg"></textarea>
+
+                            <input type="submit" value="Enviar Mensagem">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p><a href="https://github.com/rodrigooal" target="_blank">Feito por Rodrigo Almeida, em aprendizado.</a></p>
+            <p>2024 &copy;<a href="https://github.com/rodrigooal" target="_blank">Rodrigo Alves</a></p>
+        </footer>
+
+        <span><a href="#margem" id="back-to-top"><span class="material-symbols-outlined">vertical_align_top</span></a></span>
+    </body>
 </html>
