@@ -2,7 +2,6 @@
  This repository was created to store the files created during the learning process (forever).
 
  Studies started on March 16, 2024.
-
 # Projects only with HTML and CSS:
 
 <a href="https://rodrigooal.github.io/study-projects/sp-001">Project 001 - Tributo ao Corinthians</a>
